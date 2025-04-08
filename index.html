@@ -238,12 +238,59 @@
         <section id="localização">
             <div class="container">
                 <h4 class="text-center mb-4 mt-4">Localização</h4>
+                <div>
+                    <form id="whatsappForm" class="text-center" method="POST" action="lib/main.js">
+                        <div>
+                            <input type="text" id="nome" name="nome" required class="form-control  mb-2" placeholder="Seu Nome">
+                            <input type="email" id="email" name="email" required class="form-control mb-2" placeholder="Seu E-mail">
+                            <input type="tel" id="telefone" name="telefone" required class="form-control mb-2" placeholder="Seu Telefone">
+                            <textarea id="mensagem" name="mensagem"  class="form-control" placeholder="Sua Duvida" required></textarea>
+
+                            <button type="button" id="enviar" class="btn btn-primary mt-4 mb-4 form-control"  >Enviar para WhatsApp</button>
+                        </div>
+                    </form>
+                </div>
                 <div class="text-center">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12378.339823330112!2d-45.38968897303334!3d-6.038363364348934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92d2e225d9ad6613%3A0xe08e1425a20d0cc4!2sPapagaio%2C%20Fernando%20Falc%C3%A3o%20-%20MA%2C%2065950-000!5e1!3m2!1spt-BR!2sbr!4v1744146571528!5m2!1spt-BR!2sbr" width="90%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="p-4 col-md-6">
+                    <h3>Churrascaria</h3>
+                    <p>Saboreie os melhores momentos com agendte boro boro</p>
+                        <div>
+                            <img src="imagens/facebook.png" alt="">
+                            <img src="imagens/instagram.png" alt="">
+                            <img src="imagens/whatsapp (1).png" alt="">
+                        </div>
+                </div>
+                <div class="p-4 col-md-6">
+                <h4>horarios de Funcionamento</h4>
+                    <p>segunda-feira fechado</p>
+                    <p>terca-feira fechado</p>
+                    <p>quarta-feira 11h a 3h</p>
+                    <p>quinta-feira 11h a 3h</p>
+                    <p>sexta-feira 11h a 3h</p>
+                    <p>sabado-feira 11h a 3h</p>
+                    <p>domingo-feira 11h a 3h</p>
+                </div>
+                <div class="col-md-12 p-4">
+                    <h4>Contato</h4>
+                    <p><img src="imagens/facebook.png" alt=""> Rua tal endereço tal</p>
+                    <p><img src="imagens/instagram.png" alt=""> 74 09595 5591</p>
+                    <p><img src="imagens/whatsapp (1).png" alt="">cauhsoiasdhias</p>
+                </div>
+            </div>
+            
+        </div>
+        
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/main.js"></script>
 </body>
 </html>
