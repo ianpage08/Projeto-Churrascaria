@@ -96,10 +96,37 @@
             .tab-pane{
                 margin-bottom: 24px;
                 .item-menu{
-                    width: 400px;
+                    width: 320px;
                     height: 420px;
                     img{
-                        width: 350px;
+                        width: 300px;
+                        
+                    }
+                }
+                h5{
+                    font-size: 1.6em;
+                }
+                h5,p{
+                    text-align: center;
+                    color: black;
+                    max-width:350px ;
+                    width:100%;
+                }	
+            }
+        }
+    }
+}
+@media screen and (min-width: 1340px) { 
+    #menu-comida{
+        
+        #menuTabsContent{
+            .tab-pane{
+                margin-bottom: 24px;
+                .item-menu{
+                    width: 380px;
+                    height: 420px;
+                    img{
+                        width: 380px;
                         
                     }
                 }

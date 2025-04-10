@@ -31,7 +31,7 @@
 
     <main>
         <section id="slide">
-            <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="50000">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -42,29 +42,37 @@
                     <div class="carousel-item active item-slide">
                         <img src="imagens/prato.jpeg" class="d-block w-100 img-slide" alt="...">
                         <div class="carousel-caption d-flex flex-column justify-content-center align-items-center ">
-                            <h4>Seu próximo prato <b>favorito</b> te espera.</h4>
-                            <p>Qual será sua escolha hoje?</p>
+                            <div class="tela-mg">
+                                <h4>Seu próximo prato <b>favorito</b> te espera.</h4>
+                                <p>Qual será sua escolha hoje?</p>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item  item-slide">
                         <img src="imagens/happy.png" class="d-block w-100 img-slide" alt="...">
                         <div class="carousel-caption d-flex flex-column justify-content-center align-items-center d-md-block">
-                            <h4>Aproveite o happy hour! </h4>
-                            <p>Cerveja gelada, caipirinhas e porções deliciosas com descontos imperdíveis.</p>
+                            <div class="tela-mg">
+                                <h4>Aproveite o happy hour! </h4>
+                                <p>Cerveja gelada, caipirinhas e porções deliciosas com descontos imperdíveis.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item item-slide">
                         <img src="imagens/kids.png" class="d-block w-100 img-slide " alt="...">
                         <div class="carousel-caption d-flex flex-column justify-content-center align-items-center d-md-block">
-                            <h4>Espaço Kids:</h4>
-                            <p>Diversão garantida para as crianças!</p>
+                            <div class="tela-mg">
+                                <h4>Espaço Kids:</h4>
+                                <p>Diversão garantida para as crianças!</p>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item item-slide">
                         <img src="imagens/sastifação.png" class="d-block w-100 img-slide" alt="...">
                         <div class="carousel-caption d-flex flex-column justify-content-center align-items-center d-md-block">
-                            <h4>Sua satisfação é nossa prioridade.</h4>
-                            <p>Da cozinha à sua mesa, tudo é pensado para você.</p>
+                            <div class="tela-mg">
+                                <h4>Sua satisfação é nossa prioridade.</h4>
+                                <p>Da cozinha à sua mesa, tudo é pensado para você.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -261,9 +269,11 @@
         <section id="sobre">
             <div class="container">
                 <h2 class="text-center mb-4">Sobre</h2>
-                <div class="d-flex justify-content-center align-items-center flex-column">
-                    <img src="imagens/sobre.png" alt="" class="aling-middle  rounded-4 bg-primary">
-                    <div class="p-4">
+                <div class="d-flex justify-content-center align-items-center d">
+                    <div>
+                        <img src="imagens/sobre.png" alt="" class="aling-middle  rounded-4 bg-primary">
+                    </div>
+                    <div class="p-4 conteudo-sobre">
                         <h3>O Aroma que Aconchega</h3>
                         <p>O [Nome do Restaurante] nasceu do sonho de [Fundador/es] por um refúgio de boa comida e acolhimento. Começou pequeno, com o famoso [Prato Inicial], atraindo pessoas pelo aroma e sabor. Cresceu, tornando-se um lugar de encontros e celebrações, mantendo o cuidado em cada prato. Hoje, é um lar para muitos, onde cada refeição conta uma história. Venha fazer parte!</p>
                     </div>
@@ -326,24 +336,15 @@
             </div>
         </section>
         <section id="localização">
+            
             <div class="container conteudo-localização">
-                <h4 class="text-center mb-4 mt-4">Localização</h4>
-                <div class="text-center pt-3">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12378.339823330112!2d-45.38968897303334!3d-6.038363364348934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92d2e225d9ad6613%3A0xe08e1425a20d0cc4!2sPapagaio%2C%20Fernando%20Falc%C3%A3o%20-%20MA%2C%2065950-000!5e1!3m2!1spt-BR!2sbr!4v1744146571528!5m2!1spt-BR!2sbr" width="90%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div>
+                
+                <div class="tela-g">
+                    <div class="text-center pt-3 i">
+                        <h4 class="text-center mb-4 mt-4">Localização</h4>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12378.339823330112!2d-45.38968897303334!3d-6.038363364348934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92d2e225d9ad6613%3A0xe08e1425a20d0cc4!2sPapagaio%2C%20Fernando%20Falc%C3%A3o%20-%20MA%2C%2065950-000!5e1!3m2!1spt-BR!2sbr!4v1744146571528!5m2!1spt-BR!2sbr" width="90%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                     
-
-                    <form id="whatsappForm" class="text-center p-4" method="POST" action="lib/main.js">
-                        <div>
-                            <input type="text" id="nome" name="nome" required class="form-control  mb-2" placeholder="Seu Nome">
-                            <input type="email" id="email" name="email" required class="form-control mb-2" placeholder="Seu E-mail">
-                            <input type="tel" id="telefone" name="telefone" required class="form-control mb-2" placeholder="Seu Telefone">
-                            <textarea id="mensagem" name="mensagem"  class="form-control" placeholder="Sua Duvida" required></textarea>
-
-                            <button type="button" id="enviar" class="btn btn-dark mt-4 mb-4 form-control">Enviar para WhatsApp</button>
-                        </div>
-                    </form>
                 </div>
                 
             </div>
@@ -372,11 +373,19 @@
                     <p>domingo-feira 11h a 3h</p>
                 </div>
                 <div class="col-md-12 p-4">
-                    <h4>Contato</h4>
-                    <p><img src="imagens/facebook.png" alt=""> Rua tal endereço tal</p>
-                    <p><img src="imagens/instagram.png" alt=""> 74 09595 5591</p>
-                    <p><img src="imagens/whatsapp (1).png" alt="">cauhsoiasdhias</p>
+                    
+                    <form id="whatsappForm" class="text-center p-4" method="POST" action="lib/main.js">
+                        <div>
+                            <h4 class="pb-4">Entre em Contato</h4>
+                            <input type="text" id="nome" name="nome" required class="form-control  mb-2" placeholder="Seu Nome">
+                            <input type="email" id="email" name="email" required class="form-control mb-2" placeholder="Seu E-mail">
+                            <input type="tel" id="telefone" name="telefone" required class="form-control mb-2" placeholder="Seu Telefone">
+                            <textarea id="mensagem" name="mensagem"  class="form-control" placeholder="Sua Duvida" required></textarea>
+                            <button type="button" id="enviar" class="btn btn-dark mt-4 mb-4 form-control">Enviar para WhatsApp</button>
+                        </div>
+                    </form>
                 </div>
+                
             </div>
             
         </div>

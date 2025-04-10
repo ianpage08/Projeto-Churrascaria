@@ -29,4 +29,63 @@
         }
     }
 }
-        
+
+@media screen and (min-width: 768px) {
+    #programação{
+        #eventos{
+            
+            .carousel-inner{
+                position: relative;
+                h2{
+                    font-size: 4em;
+                    font-style: italic;
+                }
+                .carousel-title,.carousel-caption{
+                        top: 45px;
+                        
+                    }
+                    .carousel-item{
+                        .carousel-caption{
+                            h4{
+                                font-size: 2em;
+                            }
+                        p{
+                            font-size: 1.5em;
+                            width: 60%;
+                        }
+                        }
+                    }
+            }
+        }
+    }
+            
+}
+@media screen and (min-width: 1024px) {
+    #programação{
+        #eventos{
+            
+            .carousel-inner{
+                .carousel-title,.carousel-caption{
+                        top: 10%;
+                        
+                    }
+                    h2{
+                        font-size: 6em;
+                        
+                    }
+                    .carousel-item{
+                        .carousel-caption{
+                            h4{
+                                font-size: 3em;
+                            }
+                        p{
+                            font-size: 2em;
+                            width: 60%;
+                        }
+                        }
+                    }
+            }
+        }
+    }
+            
+}

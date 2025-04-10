@@ -62,6 +62,30 @@ header {
   text-shadow: 1px 1px 1px black;
 }
 
+@media screen and (min-width: 768px) {
+  #carousel .carousel-inner .carousel-item {
+    position: relative;
+  }
+  #carousel .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-align: center;
+  }
+  #carousel .carousel-inner .carousel-item .carousel-caption .tela-mg h4 {
+    font-size: 3em;
+    font-style: italic;
+  }
+  #carousel .carousel-inner .carousel-item .carousel-caption .tela-mg p {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 60%;
+  }
+}
 #menu-comida ul li {
   color: black;
   margin: 0px 5px;
@@ -136,11 +160,32 @@ header {
     margin-bottom: 24px;
   }
   #menu-comida #menuTabsContent .tab-pane .item-menu {
-    width: 400px;
+    width: 320px;
     height: 420px;
   }
   #menu-comida #menuTabsContent .tab-pane .item-menu img {
-    width: 350px;
+    width: 300px;
+  }
+  #menu-comida #menuTabsContent .tab-pane h5 {
+    font-size: 1.6em;
+  }
+  #menu-comida #menuTabsContent .tab-pane h5, #menu-comida #menuTabsContent .tab-pane p {
+    text-align: center;
+    color: black;
+    max-width: 350px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1340px) {
+  #menu-comida #menuTabsContent .tab-pane {
+    margin-bottom: 24px;
+  }
+  #menu-comida #menuTabsContent .tab-pane .item-menu {
+    width: 380px;
+    height: 420px;
+  }
+  #menu-comida #menuTabsContent .tab-pane .item-menu img {
+    width: 380px;
   }
   #menu-comida #menuTabsContent .tab-pane h5 {
     font-size: 1.6em;
@@ -157,6 +202,9 @@ header {
   background-color: #212529;
   color: white;
   padding: 10px;
+}
+#sobre .d {
+  flex-flow: row wrap;
 }
 #sobre h2 {
   padding-top: 16px;
@@ -179,6 +227,40 @@ header {
   text-align: justify;
 }
 
+@media screen and (min-width: 768px) {
+  #sobre {
+    padding: 16px;
+  }
+  #sobre img {
+    width: 400px;
+  }
+  #sobre h3 {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #sobre {
+    margin-top: 24px;
+    padding: 50px;
+  }
+  #sobre .d {
+    flex-flow: row nowrap;
+  }
+  #sobre .conteudo-sobre {
+    width: 600px;
+    padding-left: 100px !important;
+  }
+  #sobre img {
+    width: 500px;
+  }
+  #sobre h3 {
+    font-size: 2.5em;
+  }
+  #sobre p {
+    font-weight: 400;
+    font-size: 1.4em;
+  }
+}
 #programação #eventos .carousel-inner .carousel-title, #programação #eventos .carousel-inner .carousel-caption {
   color: white;
   position: absolute;
@@ -200,6 +282,40 @@ header {
   width: 75%;
 }
 
+@media screen and (min-width: 768px) {
+  #programação #eventos .carousel-inner {
+    position: relative;
+  }
+  #programação #eventos .carousel-inner h2 {
+    font-size: 4em;
+    font-style: italic;
+  }
+  #programação #eventos .carousel-inner .carousel-title, #programação #eventos .carousel-inner .carousel-caption {
+    top: 45px;
+  }
+  #programação #eventos .carousel-inner .carousel-item .carousel-caption h4 {
+    font-size: 2em;
+  }
+  #programação #eventos .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 1.5em;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #programação #eventos .carousel-inner .carousel-title, #programação #eventos .carousel-inner .carousel-caption {
+    top: 10%;
+  }
+  #programação #eventos .carousel-inner h2 {
+    font-size: 6em;
+  }
+  #programação #eventos .carousel-inner .carousel-item .carousel-caption h4 {
+    font-size: 3em;
+  }
+  #programação #eventos .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 2em;
+    width: 60%;
+  }
+}
 #localização .conteudo-localização h4 {
   font-size: 2.5em;
   font-style: italic;
@@ -209,13 +325,34 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.678);
 }
 #whatsappForm .form-control:hover {
-  scale: 1.1;
+  scale: 1.05;
   transition: 0.5s;
 }
-#whatsappForm .form-control:nth-child(5):hover {
+#whatsappForm .form-control:nth-child(6) {
+  background-color: rgb(68, 149, 219);
+}
+#whatsappForm .form-control:nth-child(6):hover {
   background-color: rgb(56, 1, 1);
 }
 
+@media screen and (min-width: 1024px) {
+  .i {
+    padding-bottom: 200px !important;
+  }
+  .tela-g {
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tela-g iframe {
+    width: 900px;
+    height: 600px;
+  }
+  .tela-g .form-control {
+    width: 500px;
+  }
+}
 footer {
   background-color: #212529;
   color: white;
