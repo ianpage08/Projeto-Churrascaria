@@ -41,6 +41,54 @@ header {
   text-shadow: 1px 1px 1px black;
 }
 
+#menu-comida ul li {
+  color: black;
+  margin: 0px 5px;
+  border-radius: 0;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  transition: 0.3s;
+}
+#menu-comida ul li .nav-link {
+  color: black;
+}
+#menu-comida ul li .active {
+  color: white;
+  background-color: rgb(56, 1, 1);
+  transition: 0.3s;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+  font-size: 1.2em;
+}
+#menu-comida #menuTabsContent .tab-pane .item-menu {
+  max-width: 550px;
+  width: 100%;
+}
+#menu-comida #menuTabsContent .tab-pane .item-menu:hover {
+  transition: 0.5s;
+  background-color: rgb(49, 48, 48);
+  scale: 0.9;
+}
+#menu-comida #menuTabsContent .tab-pane .item-menu:hover img {
+  scale: 0.95;
+  filter: brightness(1.3);
+  transition: 0.5s;
+}
+#menu-comida #menuTabsContent .tab-pane .item-menu:hover h5, #menu-comida #menuTabsContent .tab-pane .item-menu:hover p {
+  color: white;
+  transition: 0.5s;
+}
+#menu-comida #menuTabsContent .tab-pane h5 {
+  font-size: 2em;
+  text-align: center;
+}
+#menu-comida #menuTabsContent .tab-pane h5, #menu-comida #menuTabsContent .tab-pane p {
+  color: black;
+  max-width: 550px;
+  width: 100%;
+}
+
 footer {
   border: 1px solid black;
 }
