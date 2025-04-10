@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -64,6 +65,7 @@ header {
 #menu-comida #menuTabsContent .tab-pane .item-menu {
   max-width: 550px;
   width: 100%;
+  border-radius: 15px;
 }
 #menu-comida #menuTabsContent .tab-pane .item-menu:hover {
   transition: 0.5s;
@@ -89,8 +91,50 @@ header {
   width: 100%;
 }
 
-footer {
-  border: 1px solid black;
+#sobre {
+  background-color: #212529;
+  color: white;
+}
+#sobre h2 {
+  padding-top: 16px;
+  font-size: 2.5em;
+  font-style: italic;
+}
+#sobre img:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+#sobre h3 {
+  font-size: 2em;
+  font-style: italic;
+  padding: 16px 0;
+  text-align: center;
+}
+#sobre p {
+  font-weight: 500;
+  font-size: 1.4em;
+  text-align: justify;
+}
+
+#programação #eventos .carousel-inner .carousel-title, #programação #eventos .carousel-inner .carousel-caption {
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+#programação #eventos .carousel-inner .carousel-item img {
+  filter: brightness(0.5);
+}
+#programação #eventos .carousel-inner .carousel-item .carousel-caption {
+  color: white;
+  top: 50px;
+}
+#programação #eventos .carousel-inner .carousel-item .carousel-caption p {
+  width: 75%;
 }
 
 /*# sourceMappingURL=main.css.map */
