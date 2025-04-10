@@ -2,12 +2,15 @@ header{
     color: aliceblue;
     background-color: #212529;
     z-index: 50;
-        
-    
+}
+.navbar-brand{
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
 }
 
-
 #menu{
+    
     ul{
         li{
             border: 1px solid black;
@@ -34,3 +37,22 @@ header{
     }
 }
 
+@media screen and (min-width: 768px) {
+    .navbar-brand{
+        font-size: 3em;
+    }
+    #menu{
+        ul{
+            li{
+                border-radius:10px;
+                margin: 0 10px;
+                font-size: 1.2em;
+                .active{
+                    font-size: 1.2em;
+                    border-radius:10px;
+                }
+            }
+        }
+    }
+    
+}

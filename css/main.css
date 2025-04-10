@@ -11,6 +11,12 @@ header {
   z-index: 50;
 }
 
+.navbar-brand {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+}
+
 #menu ul li {
   border: 1px solid black;
   border-radius: 50px;
@@ -32,6 +38,20 @@ header {
   scale: 0.9;
 }
 
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    font-size: 3em;
+  }
+  #menu ul li {
+    border-radius: 10px;
+    margin: 0 10px;
+    font-size: 1.2em;
+  }
+  #menu ul li .active {
+    font-size: 1.2em;
+    border-radius: 10px;
+  }
+}
 #slide #carousel .carousel-inner .carousel-item .img-slide {
   filter: brightness(0.5);
 }
@@ -92,8 +112,10 @@ header {
 }
 
 #sobre {
+  margin-top: 16px;
   background-color: #212529;
   color: white;
+  padding: 10px;
 }
 #sobre h2 {
   padding-top: 16px;
@@ -119,7 +141,7 @@ header {
 #programação #eventos .carousel-inner .carousel-title, #programação #eventos .carousel-inner .carousel-caption {
   color: white;
   position: absolute;
-  top: 15px;
+  top: 5px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -135,6 +157,28 @@ header {
 }
 #programação #eventos .carousel-inner .carousel-item .carousel-caption p {
   width: 75%;
+}
+
+#localização .conteudo-localização h4 {
+  font-size: 2.5em;
+  font-style: italic;
+}
+
+#whatsappForm .form-control {
+  border: 1px solid rgba(0, 0, 0, 0.678);
+}
+#whatsappForm .form-control:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+#whatsappForm .form-control:nth-child(5):hover {
+  background-color: rgb(56, 1, 1);
+}
+
+footer {
+  background-color: #212529;
+  color: white;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
